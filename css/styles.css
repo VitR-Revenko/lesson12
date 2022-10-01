@@ -134,6 +134,7 @@
 }
 
 .footer__menu-submenu {
+  width: 187px;
   display: flex;
   flex-direction: column;
   gap: 15px;
