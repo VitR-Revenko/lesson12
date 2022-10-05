@@ -31,6 +31,12 @@
 .header__content {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
 }
 
 .menu {
@@ -38,12 +44,7 @@
   gap: 50px;
   align-items: center;
   list-style: none;
-}
-
-.menu::before {
-  content: url(../img/Logo.png);
-  width: 130px;
-  height: 28px;
+  flex-wrap: wrap;
 }
 
 .menu__link {
@@ -55,6 +56,7 @@
 .button__wrapper {
   display: flex;
   gap: 10px;
+  flex-shrink: 0;
 }
 
 .button_login {
@@ -275,13 +277,17 @@
 
 .section-3__content-wrapper {
   display: flex;
-  gap: 165px;
+  gap: 137px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .section-3__content-wrapper:nth-of-type(2n) {
   display: flex;
   flex-direction: row-reverse;
-  gap: 140px;
+  gap: 137px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .section-3__content {
@@ -310,6 +316,14 @@
   font-size: 20px;
   line-height: 30px;
   margin: 0;
+}
+
+.section-3__img-wrapper {
+  flex: 0 0 calc(50%-137px);
+}
+
+.section-3__img {
+  max-width: 100%;
 }
 
 /* section 4 */
