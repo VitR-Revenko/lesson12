@@ -319,7 +319,9 @@
 }
 
 .section-3__img-wrapper {
-  flex: 0 0 calc(50%-137px);
+  display: flex;
+  align-items: center;
+  flex: 0 0 calc(50% - 137px);
 }
 
 .section-3__img {
