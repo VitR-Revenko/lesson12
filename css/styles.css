@@ -46,6 +46,7 @@
   align-items: center;
   list-style: none;
   flex-wrap: wrap;
+  padding-left: 2rem;
 }
 
 .menu__link {
@@ -84,6 +85,7 @@
   display: flex;
   justify-content: space-between;
   padding-bottom: 4.75rem;
+  gap: 7rem
 }
 
 .footer__info {
@@ -99,7 +101,14 @@
   line-height: 2.5rem;
 }
 
+.footer__img-wrapper {
+  display: flex;
+  align-items: center;
+  flex: 0 0 50%;
+}
+
 .footer__info-img {
+  max-width: 100%;
   margin: 1.5rem 0 1.5rem;
 }
 
@@ -121,6 +130,7 @@
 .footer__menu {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   list-style: none;
   gap: 1.7rem;
   margin: 0;
@@ -134,7 +144,7 @@
 }
 
 .footer__menu-submenu {
-  width: 187px;
+  width: 9.35rem;
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
@@ -268,6 +278,7 @@
   flex-direction: row;
   gap: 5rem;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 /* section 3 */
@@ -359,7 +370,7 @@
 }
 
 .section-4__card {
-  width: 330px;
+  width: 16.5rem;
   padding: 1rem 0.75rem 0;
   display: flex;
   flex-direction: column;
@@ -465,6 +476,16 @@
   line-height: 1.25rem;
 }
 
+.quote__author-img-wrapper {
+  display: flex;
+  align-items: center;
+  flex: 0 0 33%;
+}
+
+.quote__author-img {
+  max-width: 100%;
+}
+
 /* rate */
 
 .rate__wrapper {
@@ -485,6 +506,16 @@
   gap: 3.25rem;
 }
 
+.rate__img-wrapper {
+  display: flex;
+  align-items: center;
+  flex: 0 0 25%;
+}
+
+.rate__text-img {
+  max-width: 100%;
+}
+
 .rate__text {
   margin: 0;
   font-weight: 600;
@@ -497,6 +528,7 @@
   padding: 1.5rem 3rem 1rem 3.5rem;
   display: flex;
   gap: 3.5rem;
+  flex-wrap: wrap;
 }
 
 .rate__stars {
@@ -547,8 +579,15 @@
   text-align: center;
 }
 
+.section-6__img-wrapper {
+  display: flex;
+  align-items: center;
+  flex: 0 0 50%;
+}
+
 .section-6__img {
   padding: 1.25rem 0 1.5rem;
+  max-width: 100%;
 }
 
 .section-6__button {
@@ -592,4 +631,19 @@
   padding: 0 2rem;
   line-height: 3rem;
   color: #ffffff;
+}
+
+@media screen and (max-width: 1200px) {
+  * {
+    font-size: 16px;
+  }
+
+  .nav__logo {
+    max-width: 75%;
+  }
+
+  .menu {
+    gap: 1.25rem;
+    padding-left: 0rem;
+  }
 }
