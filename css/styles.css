@@ -1,5 +1,6 @@
 * {
   font-family: "Graphik LC TT", sans-serif;
+  font-size: 20px;
   color: black;
   box-sizing: border-box;
 }
@@ -11,7 +12,7 @@
 
 .button {
   font-weight: 600;
-  font-size: 16px;
+  font-size: 0.8rem;
   text-align: center;
   border: 0;
   background: none;
@@ -48,7 +49,7 @@
 }
 
 .menu__link {
-  font-size: 15px;
+  font-size: 0.75rem;
   line-height: 20px;
   text-decoration: none;
 }
@@ -94,7 +95,7 @@
 .footer__info-title {
   margin: 0;
   font-weight: 600;
-  font-size: 40px;
+  font-size: 2rem;
   line-height: 50px;
 }
 
@@ -108,13 +109,11 @@
 
 .footer__info-text {
   max-width: 290px;
-  font-size: 20px;
   line-height: 30px;
 }
 
 .footer__info-link {
   font-weight: 600;
-  font-size: 20px;
   line-height: 30px;
   text-decoration: none;
 }
@@ -130,7 +129,6 @@
 
 .footer__menu-link {
   font-weight: 600;
-  font-size: 20px;
   line-height: 25px;
   text-decoration: none;
 }
@@ -145,7 +143,7 @@
 }
 
 .footer__menu-sublink {
-  font-size: 15px;
+  font-size: 0.75rem;
   line-height: 15px;
   text-decoration: none;
 }
@@ -162,14 +160,14 @@
 .legal-info {
   display: inline-block;
   max-width: 300px;
-  font-size: 12px;
+  font-size: 0.55rem;
   line-height: 15px;
   margin: 0;
 }
 
 .copyright-info {
   max-width: 300px;
-  font-size: 12px;
+  font-size: 0.55rem;
   line-height: 15px;
 }
 
@@ -196,14 +194,14 @@
 
 .section-1__title {
   font-weight: 600;
-  font-size: 65px;
+  font-size: 3.25rem;
   line-height: 70px;
   margin: 0;
 }
 
 .section-1__text {
   font-weight: 400;
-  font-size: 25px;
+  font-size: 1.25rem;
   line-height: 35px;
   max-width: 470px;
   margin: 0;
@@ -228,9 +226,19 @@
 }
 
 .section-1__text_additional {
-  font-size: 15px;
+  font-size: 0.75rem;
   line-height: 25px;
   margin: 0;
+}
+
+.section-1__img-wrapper {
+  display: flex;
+  align-items: center;
+  flex: 0 0 50%;
+}
+
+.section-1__img {
+  max-width: 100%;
 }
 
 /* section 2 */
@@ -250,7 +258,7 @@
 .section-2__title {
   max-width: 720px;
   font-weight: 600;
-  font-size: 50px;
+  font-size: 2.5rem;
   line-height: 60px;
   text-align: center;
   margin: 0;
@@ -300,20 +308,18 @@
 
 .section-3__title {
   font-weight: 600;
-  font-size: 50px;
+  font-size: 2.5rem;
   line-height: 60px;
   margin: 0;
 }
 
 .section-3__text {
-  font-size: 20px;
   line-height: 30px;
   margin: 0;
 }
 
 .section-3__link {
   font-weight: 600;
-  font-size: 20px;
   line-height: 30px;
   margin: 0;
 }
@@ -337,7 +343,7 @@
 
 .section-4__title {
   font-weight: 600;
-  font-size: 50px;
+  font-size: 2.5rem;
   line-height: 60px;
   text-align: center;
   margin: 0;
@@ -364,14 +370,14 @@
 
 .section-4__card-title {
   font-weight: 600;
-  font-size: 25px;
+  font-size: 1.25rem;
   line-height: 35px;
   text-align: center;
   margin: 0;
 }
 
 .section-4__card-text {
-  font-size: 18px;
+  font-size: 0.9rem;
   line-height: 25px;
   text-align: center;
   margin: 0;
@@ -387,7 +393,7 @@
   padding-bottom: 25px;
   margin: 0;
   font-weight: 600;
-  font-size: 50px;
+  font-size: 2.5rem;
   line-height: 60px;
 }
 
@@ -413,7 +419,7 @@
   margin: 0;
   padding-bottom: 35px;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 1.5rem;
   line-height: 40px;
 }
 
@@ -421,12 +427,10 @@
   max-width: 410px;
   margin: 0;
   padding-bottom: 25px;
-  font-size: 20px;
   line-height: 30px;
 }
 
 .section-5__card-link {
-  font-size: 20px;
   line-height: 30px;
   margin: 0;
 }
@@ -452,13 +456,13 @@
 .quote__text {
   margin: 0;
   padding-bottom: 25px;
-  font-size: 30px;
+  font-size: 1.5rem;
   line-height: 40px;
 }
 
 .quote__author {
   margin: 0;
-  font-size: 15px;
+  font-size: 0.75rem;
   line-height: 25px;
 }
 
@@ -485,7 +489,7 @@
 .rate__text {
   margin: 0;
   font-weight: 600;
-  font-size: 35px;
+  font-size: 1.75rem;
   line-height: 50px;
 }
 
@@ -528,7 +532,7 @@
   max-width: 790px;
   margin: 0;
   font-weight: 600;
-  font-size: 65px;
+  font-size: 3.25rem;
   line-height: 75px;
   text-align: center;
 }
@@ -536,7 +540,7 @@
 .section-6__text {
   max-width: 540px;
   margin: 0;
-  font-size: 25px;
+  font-size: 1.25rem;
   line-height: 30px;
   text-align: center;
 }
@@ -569,7 +573,7 @@
   max-width: 790px;
   margin: 0;
   font-weight: 600;
-  font-size: 65px;
+  font-size: 3.25rem;
   line-height: 75px;
   text-align: center;
 }
@@ -577,7 +581,6 @@
 .section-7__text {
   margin: 0;
   padding: 30px 0 55px;
-  font-size: 20px;
   line-height: 30px;
   text-align: center;
 }
