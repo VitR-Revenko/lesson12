@@ -85,7 +85,7 @@
   display: flex;
   justify-content: space-between;
   padding-bottom: 4.75rem;
-  gap: 7rem
+  gap: 7rem;
 }
 
 .footer__info {
@@ -169,7 +169,7 @@
 
 .legal-info {
   display: inline-block;
-  max-width: 300px;
+  max-width: 15rem;
   font-size: 0.55rem;
   line-height: 0.75rem;
   margin: 0;
@@ -645,5 +645,111 @@
   .menu {
     gap: 1.25rem;
     padding-left: 0rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  * {
+    font-size: 14px;
+  }
+
+  .nav__logo {
+    max-width: 100%;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .header__burger-wrapper {
+    display: block;
+  }
+
+  .section-1__wrapper {
+    padding: 3rem 2rem;
+  }
+
+  .section-1 {
+    flex-direction: column-reverse;
+    gap: 1.5rem;
+  }
+
+  .section-1__title {
+    text-align: center;
+  }
+
+  .section-1__text {
+    text-align: center;
+  }
+
+  .section-1__content {
+    align-items: center;
+  }
+
+  .section-1__img-wrapper {
+    justify-content: center;
+  }
+
+  .section-1__img {
+    max-width: 75%;
+  }
+
+  .section-3__wrapper {
+    padding: 3rem 2rem;
+  }
+
+  .section-3 {
+    gap: 6rem;
+  }
+
+  .section-4__wrapper {
+    padding: 3rem 2rem;
+  }
+
+  .section-4__cards {
+    gap: 2.75rem;
+    column-gap: 1.5rem;
+  }
+
+  .section-5__wrapper {
+    padding: 4rem 3rem;
+  }
+
+  .section-5__cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-5__card:nth-of-type(2n) {
+    align-items: flex-end;
+  }
+
+  .section-5__card:nth-of-type(2n) .section-5__card-text {
+    text-align: end;
+  }
+
+  .quote {
+    flex-direction: column-reverse;
+  }
+
+  .rate__content {
+    flex-direction: column;
+  }
+
+  .section-6__wrapper {
+    padding: 3rem 2rem;
+  }
+
+  .section-7__wrapper {
+    padding: 4rem;
+  }
+
+  .footer__content {
+    flex-direction: column;
+  }
+
+  .footer__menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
