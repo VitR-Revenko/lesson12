@@ -753,3 +753,17 @@
     grid-template-columns: 1fr 1fr;
   }
 }
+
+@media screen and (max-width: 576px) {
+  .section-3__content-wrapper, .section-3__content-wrapper:nth-of-type(2n) {
+    flex-direction: column-reverse;
+  }
+
+  .section-3__img-wrapper {
+    justify-content: center;
+  }
+
+  .section-3__img {
+    max-width: 75%;
+  }
+}
